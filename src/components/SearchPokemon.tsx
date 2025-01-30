@@ -1,12 +1,16 @@
 import { FormEvent, useState } from "react"
+type SearchPokemonProps = {
+    findPokemon: (searchText: string) => void;
+}
 
-export const SearchPokemon = () => {
+
+export const SearchPokemon = (props: SearchPokemonProps) => {
     const[searchText, setSearchText] = useState("");
     
     const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
-        //Kör typ props.searchPokemon(searchText);
-        //Sen setSearchText("") för att tömma fältet
+        props.findPokemon(searchText);
+        setSearchText("");
 
 
     }
