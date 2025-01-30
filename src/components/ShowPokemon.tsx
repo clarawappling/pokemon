@@ -17,8 +17,8 @@ export const ShowPokemon = (props: ShowPokemonProps) => {
         }
         
     return (<>
-    <div>
-        <h3>{props.pokemon.name}</h3>
+    <div className="show-pokemon">
+        <h3 className="pokemon-name">{props.pokemon.name}</h3>
         <div>
             <img src={props.pokemon.sprites.front_default} onClick={showBack}/>
             
