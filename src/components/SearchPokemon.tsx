@@ -1,6 +1,6 @@
 import { FormEvent, useState } from "react"
 type SearchPokemonProps = {
-    findPokemon: (searchText: string) => void
+    findPokemon: (searchText: string) => void;
 }
 
 
