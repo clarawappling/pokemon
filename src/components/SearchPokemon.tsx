@@ -20,7 +20,7 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}/>
-        <button>SÖK</button>
+        <button>HITTA</button>
     </form>
     
     </>)
