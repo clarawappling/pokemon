@@ -22,7 +22,17 @@ export const ShowPokemon = (props: ShowPokemonProps) => {
         
         <div>
             <img src={props.pokemon.sprites.front_default} onClick={showBack}/>
-            <p>HP: {props.pokemon.stats[0].base_stat}</p>{}
+            <p className="hp">HP: {props.pokemon.stats[0].base_stat}</p>
+            <ul className="types">{props.pokemon.types.map((t, index) => {
+                return (
+                    <>
+                    <div key={index}>
+                    <p>{t.type.name}</p>
+                </div>
+                    </>
+                )
+                
+            })}</ul>
            
             
         </div>
