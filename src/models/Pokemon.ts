@@ -2,9 +2,17 @@ export type Pokemon = {
     name: string;
     id: number;
     sprites: Sprites;
-    weight: number
+    stats: Stat[];
 
 }
+
+
+
+type Stat = {
+    base_stat: number;
+
+}
+
 
 type Sprites = {
     front_default: string;

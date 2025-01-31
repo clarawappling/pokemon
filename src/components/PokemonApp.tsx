@@ -18,7 +18,7 @@ export const PokemonApp = () => {
     return ( <>
 
     <div>
-    <h1>Välkommen, Frank!</h1>
+    <h1>Franks app</h1>
     <p>Det här är din alldeles egna sida. Här kan du skriva namnet på en pokemon och hitta den.</p>
     </div>
     <SearchPokemon findPokemon={findPokemon}/>
