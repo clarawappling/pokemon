@@ -2,9 +2,9 @@
 
     img {
         width: 100%; 
-        height: 100%; /* Optional: control the height if you want it to fill a specific area */
-        object-fit: cover; /* Ensures the image covers the container, cropping it if necessary */
-        object-position: center; /* Ensures the image is centered, keeping the focus point in the middle */
+        height: 100%; 
+        object-fit: cover; 
+        object-position: center; 
         border-radius: 3rem;
       }
 }
@@ -53,12 +53,15 @@ button {
 .types {
     padding: 0.5rem;
     box-shadow: 1px 2px 1px rgba(125, 168, 116, 0.137);
-    background-color: rgba(125, 168, 116, 0.288) ;
+    background-color: rgba(125, 168, 116, 0.075);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 .hp {
-    
-    color:rgba(26, 28, 146, 0.76)
+    font-size: 18px;
+    font-style: italic;
+    color: rgba(31, 51, 27, 0.747);
+   
 }
 
 
