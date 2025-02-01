@@ -6,18 +6,12 @@ type SearchPokemonProps = {
 
 export const SearchPokemon = (props: SearchPokemonProps) => {
     const[searchText, setSearchText] = useState("");
-    const scrollToBottom = () => {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-    
-
+ 
     const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
         props.findPokemon(searchText);
         setSearchText("");
       
-
-
     }
     return (<>
     <form onSubmit={handleSubmit}>
@@ -25,7 +19,7 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}/>
-        <button onClick={scrollToBottom}>HITTA</button>
+        <button>HITTA</button>
     </form>
     
     </>)
