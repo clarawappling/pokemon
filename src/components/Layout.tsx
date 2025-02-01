@@ -6,14 +6,16 @@ export const Layout = () => {
 
     <header>
         <div className="header-image-container">
-            <img src="src\imgs\pokemon-vector-logo.png"></img>
+            <img src="https://www.sketchappsources.com/resources/source-image/pokemon-vector-logo.png"></img>
         </div>
     </header>
     <main>
         <div className="app-container">
         <PokemonApp/>
         </div></main>
-    <footer></footer>
+    <footer>
+        <div className="footer"></div>
+    </footer>
     </>)
 }
 

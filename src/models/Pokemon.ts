@@ -12,10 +12,10 @@ type Stat = {
 
 }
 
-
 type Sprites = {
     front_default: string;
     back_default: string;
+    
 }
 
 type Type = {
@@ -24,4 +24,5 @@ type Type = {
 
 type NameUrl = {
     name: string;
+   
 }
