@@ -20,7 +20,7 @@ export const Layout = () => {
 
             </div>
         </div>
-        <p className="franks-app">Franks app 2025</p>
+        <p className="franks-app">FRANKS APP 2025</p>
     </footer>
     </>)
 }

@@ -19,11 +19,12 @@ main {
     padding: 1rem;
     border-radius: 10px;
     h1 {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: "Londrina Shadow", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 48px;
     }
     p {
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
     }
 }
 
@@ -77,6 +78,8 @@ footer {
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
+    font-family: "Londrina Shadow";
+    font-size: 1.2rem;
 }
  .footer {
     margin-top: 2rem;
