@@ -9,13 +9,19 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
  
     const handleSubmit = (e: FormEvent) => {
         e.preventDefault();
-        props.findPokemon(searchText);
-        setSearchText("");
+        if(searchText) {
+            props.findPokemon(searchText);
+            setSearchText("");
+        } else {
+            alert("SKRIV NAMNET PÅ EN POKEMON INNAN DU TRYCKER PÅ KNAPPEN");
+        }
+       
       
     }
     return (<>
     <form onSubmit={handleSubmit}>
         <input
+        placeholder="SKRIV HÄR"
         type="text"
         value={searchText}
         onChange={(e) => setSearchText(e.target.value)}/>
