@@ -2,9 +2,11 @@ import { useState } from "react"
 import { SearchPokemon } from "../components/SearchPokemon"
 import { ShowPokemon } from "./ShowPokemon"
 import { Pokemon } from "../models/Pokemon"
+import { FranksListContext } from "../contexts/FranksListContext"
+import { ShowFranksList } from "./ShowFranksList"
 
 export const PokemonApp = () => {
-    
+    const [franksList, setFranksList] = useState<string[]>(["scorbunny", "pidgeotto", "eternatus", "bulbasaur", "geodude", "charmander", "charizard", "ivysaur", "rattata", "spearow"])
     
     const [pokemon, setPokemon] = useState<Pokemon>();;
     const url = "https://pokeapi.co/api/v2/pokemon/";
@@ -32,14 +34,16 @@ export const PokemonApp = () => {
       }
     }
     return ( <>
-
+<FranksListContext.Provider value={{franksList}}>
     <div>
-    <h1>Franks app</h1>
-    <p>Det här är din alldeles egna sida. Här kan du skriva namnet på en pokemon och hitta den.</p>
+    <h1>Franks pokemons</h1>
+    <ShowFranksList/>
     </div>
     <SearchPokemon findPokemon={findPokemon}/>
     
     {pokemon && <ShowPokemon pokemon={pokemon}></ShowPokemon>}
+
     
+    </FranksListContext.Provider>
     </>)
 }
