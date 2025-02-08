@@ -48,7 +48,7 @@ button {
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 1px 3px 1px rgba(125, 168, 116, 0.432);
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     h3 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 24px;
@@ -58,9 +58,9 @@ button {
 
 .types {
     padding: 0.5rem;
-    box-shadow: 1px 2px 1px rgba(125, 168, 116, 0.137);
-    background-color: rgba(125, 168, 116, 0.075);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    span {
+        padding: 0.4rem;
+    }
 }
 
 .hp {
