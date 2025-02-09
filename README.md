@@ -1,3 +1,6 @@
+# Franks app
+An app made 100% for the enjoyment of my 5 year old pokemon-obsessed son. 
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
