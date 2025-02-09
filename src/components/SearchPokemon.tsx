@@ -19,6 +19,7 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
       
     }
     return (<>
+    <p>Här kan du skriva namnet på en pokemon och hitta den.</p>
     <form onSubmit={handleSubmit}>
         <input
         placeholder="SKRIV HÄR"
