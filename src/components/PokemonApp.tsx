@@ -6,7 +6,19 @@ import { FranksListContext } from "../contexts/FranksListContext"
 import { ShowFranksList } from "./ShowFranksList"
 
 export const PokemonApp = () => {
-    const [franksList, setFranksList] = useState<string[]>(["scorbunny", "pidgeotto", "eternatus", "bulbasaur", "geodude", "charmander", "charizard", "ivysaur", "rattata", "spearow"])
+    const [franksList, setFranksList] = useState<string[]>([
+      "scorbunny", "eternatus", "bulbasaur", "geodude", 
+      "charmander", "charizard", "ivysaur", "barraskewda", "grimmsnarl", 
+      "sylveon", "falinks", "haxorus", "growlithe", "centiskorch", 
+      "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
+    "growlithe" , "gastly", "haunter", "steelix", "lapras", "arcanine", 
+    "cloyster", "butterfree", "magnemite", "machoke", "hitmonlee", "dugtrio",
+    "mr-mime", "goldeen", "metapod", "machamp", "seismitoad", "diglett",
+    "croagunk", "basculin-white-striped", "charmeleon", "cinderace", 
+    "cyndaquil", "helioptile", "sudowoodo", "impidimp", "thievul", 
+    "rookidee", "gossifleur", "froslass", "excadrill",
+    "purrloin", "zigzagoon", "venomoth"
+  ])
     
     const [pokemon, setPokemon] = useState<Pokemon>();;
     const url = "https://pokeapi.co/api/v2/pokemon/";
