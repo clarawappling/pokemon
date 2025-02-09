@@ -6,11 +6,11 @@ import { FranksListContext } from "../contexts/FranksListContext"
 import { ShowFranksList } from "./ShowFranksList"
 
 export const PokemonApp = () => {
-    const [franksList, setFranksList] = useState<string[]>([
-      "scorbunny", "eternatus", "bulbasaur", "geodude", 
-      "charmander", "charizard", "ivysaur", "barraskewda", "grimmsnarl", 
-      "sylveon", "falinks", "haxorus", "growlithe", "centiskorch", 
-      "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
+    const franksList = ([
+    "scorbunny", "eternatus", "bulbasaur", "geodude", 
+    "charmander", "charizard", "ivysaur", "barraskewda", "grimmsnarl", 
+    "sylveon", "falinks", "haxorus", "growlithe", "centiskorch", 
+    "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
     "growlithe" , "gastly", "haunter", "steelix", "lapras", "arcanine", 
     "cloyster", "butterfree", "magnemite", "machoke", "hitmonlee", "dugtrio",
     "mr-mime", "goldeen", "metapod", "machamp", "seismitoad", "diglett",
