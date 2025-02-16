@@ -9,15 +9,25 @@ export const PokemonApp = () => {
     const franksList = ([
     "scorbunny", "eternatus", "bulbasaur", "geodude", 
     "charmander", "charizard", "ivysaur", "barraskewda", "grimmsnarl", 
-    "sylveon", "falinks", "haxorus", "growlithe", "centiskorch", 
+    "sylveon", "falinks", "haxorus", "growlithe", 
     "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
-    "growlithe" , "gastly", "haunter", "steelix", "lapras", "arcanine", 
-    "cloyster", "butterfree", "magnemite", "machoke", "hitmonlee", "dugtrio",
+     "gastly", "haunter", "steelix", "lapras", "arcanine", 
+    "cloyster", "butterfree", "magnemite", "machoke", 
     "mr-mime", "goldeen", "metapod", "machamp", "seismitoad", "diglett",
     "croagunk", "basculin-white-striped", "charmeleon", "cinderace", 
     "cyndaquil", "helioptile", "sudowoodo", "impidimp", "thievul", 
-    "rookidee", "gossifleur", "froslass", "excadrill",
-    "purrloin", "zigzagoon", "venomoth"
+    "rookidee", "gossifleur", "excadrill", 
+    "purrloin", "zigzagoon", "venomoth", "raboot", "blipbug", "dottler",
+    "orbeetle", "caterpie", "grubbin", "vikavolt", "hoothoot", "corviknight",
+    "skwovet", "greedent", "pidove", "tranquill", "nickit", "obstagoon", "seedot",
+    "nuzleaf", "shiftry", "chewtle", "drednaw", "liepard", "yamper", "bunnelby", 
+    "diggersby", "minccino", "oddish", "gloom","wingull", "pelipper","galvantula",
+    "electrike", "vulpix", "delibird", "snorunt", "mudbray","dwebble", "golurk", "stufful",
+    "snover", "wooper", "corphish", "ninjask", "tyrogue", "pancham", "bronzor", 
+    "stunky", "tympole", "palpitoad", "dusknoir", "seaking", "octillery", "wishiwashi-solo", 
+    "wishiwashi-school", "pyukumuku", "sizzlipede", "rolycoly", "coalossal", "roggenrola",
+    "timburr", "gurdurr", "woobat"
+
   ])
     
     const [pokemon, setPokemon] = useState<Pokemon>();;
