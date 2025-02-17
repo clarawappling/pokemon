@@ -7,17 +7,12 @@ import { ShowFranksList } from "./ShowFranksList"
 
 export const PokemonApp = () => {
     const franksList = ([
-    "scorbunny", "eternatus", "bulbasaur", "geodude", 
-    "charmander", "charizard", "ivysaur", "barraskewda", "grimmsnarl", 
+    "scorbunny", "eternatus", "barraskewda", "grimmsnarl", 
     "sylveon", "falinks", "haxorus", "growlithe", 
     "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
-     "gastly", "haunter", "steelix", "lapras", "arcanine", 
-    "cloyster", "butterfree", "magnemite", "machoke", 
-    "mr-mime", "goldeen", "metapod", "machamp", "seismitoad", "diglett",
-    "croagunk", "basculin-white-striped", "charmeleon", "cinderace", 
-    "cyndaquil", "helioptile", "sudowoodo", "impidimp", "thievul", 
-    "rookidee", "gossifleur", "excadrill", 
-    "purrloin", "zigzagoon", "venomoth", "raboot", "blipbug", "dottler",
+    "steelix", "lapras", "cloyster", "butterfree", "machoke", "goldeen", "metapod", 
+    "seismitoad", "cinderace", "helioptile", "sudowoodo", "thievul", "rookidee", 
+    "gossifleur",  "purrloin", "zigzagoon", "raboot", "blipbug", "dottler",
     "orbeetle", "caterpie", "grubbin", "vikavolt", "hoothoot", "corviknight",
     "skwovet", "greedent", "pidove", "tranquill", "nickit", "obstagoon", "seedot",
     "nuzleaf", "shiftry", "chewtle", "drednaw", "liepard", "yamper", "bunnelby", 
@@ -26,8 +21,12 @@ export const PokemonApp = () => {
     "snover", "wooper", "corphish", "ninjask", "tyrogue", "pancham", "bronzor", 
     "stunky", "tympole", "palpitoad", "dusknoir", "seaking", "octillery", "wishiwashi-solo", 
     "wishiwashi-school", "pyukumuku", "sizzlipede", "rolycoly", "coalossal", "roggenrola",
-    "timburr", "gurdurr", "woobat"
-
+    "timburr", "gurdurr", "woobat", "arrokuda", "meowth", "perrserker", "cutiefly",
+    "pumpkaboo-average", "espurr", "swirlix", "chinchou", "lanturn", "scraggy",
+    "stunfisk", "whiscash", "shellos", "barbaracle", "hattrem", "hatterene", "sawk",
+    "bonsly", "rhyhorn", "gothitelle", "cubchoo", "rufflet", "skorupi", "litwick", "sneasel",
+    "sigilyph", "torkoal", "sandaconda", "hawlucha", "flygon", "axew", "fraxure", "yamask",
+    "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel"
   ])
     
     const [pokemon, setPokemon] = useState<Pokemon>();;
