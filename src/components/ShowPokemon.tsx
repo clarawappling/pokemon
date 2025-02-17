@@ -9,12 +9,16 @@ export const ShowPokemon = (props: ShowPokemonProps) => {
     
     const showBack = (e: React.MouseEvent<HTMLImageElement>) => {
         const target = e.target as HTMLImageElement; // Type assertion here
-
-        if (target.src === props.pokemon.sprites.front_default) {
-            target.src = props.pokemon.sprites.back_default;
+        if(props.pokemon.sprites.back_default) {
+            if (target.src === props.pokemon.sprites.front_default) {
+                target.src = props.pokemon.sprites.back_default;
+            } else {
+                target.src = props.pokemon.sprites.front_default;
+            }
         } else {
-            target.src = props.pokemon.sprites.front_default;
+            return;
         }
+       
     };
         
     return (<>
