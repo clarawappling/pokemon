@@ -26,7 +26,10 @@ export const PokemonApp = () => {
     "stunfisk", "whiscash", "shellos", "barbaracle", "hattrem", "hatterene", "sawk",
     "bonsly", "rhyhorn", "gothitelle", "cubchoo", "rufflet", "skorupi", "litwick", "sneasel",
     "sigilyph", "torkoal", "sandaconda", "hawlucha", "flygon", "axew", "fraxure", "yamask",
-    "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel"
+    "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel", "beartic",
+    "copperajah", "ditto", "frillish", "gastrodon", "glalie", "inkay", "jolteon", "kingler",
+    "klang", "ninetales", "noivern", "wobbuffet"
+
   ])
     
     const [pokemon, setPokemon] = useState<Pokemon>();;
