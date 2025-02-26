@@ -44,7 +44,6 @@ const showDetails = (thisPokemon: Pokemon) => {
     return (
         <>
         <div className="pokemons-container">
-            
                 {pokemonsData.map((pokemon, index) => (
                     <div onClick={() => showDetails(pokemon)} className="pokemon-card" key={index}>
                         <img src={pokemon.sprites.front_default} alt={pokemon.name} />     

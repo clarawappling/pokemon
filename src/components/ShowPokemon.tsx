@@ -31,6 +31,5 @@ export const ShowPokemon = (props: ShowPokemonProps) => {
        
         </div>
     </div>
-    
     </>)
 }
