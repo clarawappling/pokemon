@@ -99,3 +99,39 @@ footer {
           }
         
 } 
+
+
+
+@media screen and (min-width: 550px) {
+    .header-image-container {
+
+        img {
+            width: 60%; 
+            height: 100%; 
+            object-fit: cover; 
+            object-position: center; 
+            border-radius: 3rem;
+          }
+    }
+  }
+  
+  @media screen and (min-width: 850px) {
+    .header-image-container {
+
+        img {
+            max-width: 500px ; 
+            height: 100%; 
+            object-fit:scale-down; 
+            object-position: center; 
+            border-radius: 3rem;
+          }
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .app-container {
+        width: 100%;
+    }
+  }
+  
