@@ -1,4 +1,5 @@
 import { FormEvent, useState } from "react"
+import "./SearchPokemon.css"
 type SearchPokemonProps = {
     findPokemon: (searchText: string) => void;
 }
@@ -19,6 +20,7 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
       
     }
     return (<>
+    <div className="search-container">
     <p>Här kan du skriva namnet på en pokemon och hitta den.</p>
     <form onSubmit={handleSubmit}>
         <input
@@ -28,6 +30,6 @@ export const SearchPokemon = (props: SearchPokemonProps) => {
         onChange={(e) => setSearchText(e.target.value)}/>
         <button>HITTA</button>
     </form>
-    
+    </div>
     </>)
 }
