@@ -44,15 +44,20 @@ const showDetails = (thisPokemon: Pokemon) => {
     return (
         <>
         <div className="pokemons-container">
-                {pokemonsData.map((pokemon, index) => (
+                {pokemonsData.map((pokemon, index) => 
+                    (pokemon.id === chosenPokemon?.id ? 
+                        <div key={index}>
+                    <div onClick={() => showDetails(pokemon)} className="pokemon-card hidden" >
+                        <img src={pokemon.sprites.front_default} alt={pokemon.name} /> </div>
+                        {chosenPokemon && <ShowPokemon pokemon={chosenPokemon}/>}   </div>  
+                     :
                     <div onClick={() => showDetails(pokemon)} className="pokemon-card" key={index}>
-                        <img src={pokemon.sprites.front_default} alt={pokemon.name} />     
-                    </div>
+                    <img src={pokemon.sprites.front_default} alt={pokemon.name} />
+                    
+                </div>
                 ))}
             
         </div>
-       
-       {chosenPokemon && <ShowPokemon pokemon={chosenPokemon}/>}
        </>
     );
 };
