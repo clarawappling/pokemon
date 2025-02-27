@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { FranksListContext } from "../contexts/FranksListContext"
 import { Pokemon } from "../models/Pokemon";
-import "./ShowFranksList.css"
+import "../styles/ShowFranksList.css";
 import { ShowPokemon } from "./ShowPokemon";
 
 

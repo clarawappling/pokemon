@@ -1,5 +1,6 @@
 import { FormEvent, useState } from "react"
-import "./SearchPokemon.css"
+import "../styles/SearchPokemon.css"
+
 type SearchPokemonProps = {
     findPokemon: (searchText: string) => void;
 }
