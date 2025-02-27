@@ -40,6 +40,7 @@ input {
     flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
+ 
 }
 
 button {
@@ -50,11 +51,12 @@ button {
 .show-pokemon {
     /* margin-right: 40px;
     margin-left: 40px;  */
+    min-width: 250px;
     background-color:rgba(125, 168, 116, 0.171);
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 1px 3px 1px rgba(125, 168, 116, 0.432);
-    margin-bottom: 0.05rem;
+    margin: 0.7rem;
     h3 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 24px;
