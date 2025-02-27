@@ -39,6 +39,7 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 button {
@@ -47,13 +48,13 @@ button {
 }
 
 .show-pokemon {
-    margin-right: 40px;
-    margin-left: 40px; 
+    /* margin-right: 40px;
+    margin-left: 40px;  */
     background-color:rgba(125, 168, 116, 0.171);
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 1px 3px 1px rgba(125, 168, 116, 0.432);
-    margin-bottom: 4rem;
+    margin-bottom: 0.05rem;
     h3 {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 24px;
@@ -115,7 +116,11 @@ footer {
             object-position: center; 
             border-radius: 3rem;
           }
-    }
+        }
+    
+    .show-pokemon {
+    margin-right: 40px;
+    margin-left: 40px; } 
   }
   
   @media screen and (min-width: 850px) {
