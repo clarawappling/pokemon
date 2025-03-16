@@ -1,5 +1,6 @@
 import { Pokemon } from "../models/Pokemon"
 import { TypeSymbol } from "./TypeSymbol";
+import "../styles/Layout.css"
 
 type ShowPokemonProps = {
     pokemon: Pokemon;
