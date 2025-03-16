@@ -5,6 +5,7 @@ import { Pokemon } from "../models/Pokemon"
 import { FranksListContext } from "../contexts/FranksListContext"
 import { ShowFranksList } from "./ShowFranksList"
 
+
 export const PokemonApp = () => {
     const franksList = ([
     "scorbunny", "eternatus", "barraskewda", "grimmsnarl", 
@@ -28,7 +29,8 @@ export const PokemonApp = () => {
     "sigilyph", "torkoal", "sandaconda", "hawlucha", "flygon", "axew", "fraxure", "yamask",
     "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel", "beartic",
     "copperajah", "ditto", "frillish", "gastrodon", "glalie", "inkay", "jolteon", "kingler",
-    "klang", "ninetales", "noivern", "wobbuffet"
+    "klang", "ninetales", "noivern", "wobbuffet", "pikachu", "eevee", "avalugg", "glaceon", 
+    "zacian", "shuckle", "gardevoir"
 
   ])
     
