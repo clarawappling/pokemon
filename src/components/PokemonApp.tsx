@@ -30,7 +30,9 @@ export const PokemonApp = () => {
     "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel", "beartic",
     "copperajah", "ditto", "frillish", "gastrodon", "glalie", "inkay", "jolteon", "kingler",
     "klang", "ninetales", "noivern", "wobbuffet", "pikachu", "eevee", "avalugg", "glaceon", 
-    "zacian", "shuckle", "gardevoir"
+    "zacian", "shuckle", "gardevoir", "drakloak", "fuecoco", "lechonk", "tarountula", "hoppip",
+    "fletchling", "pawmi", "yungoos", "scatterbug", "azurill", "buizel", "wooper", "psyduck",
+    "ralts", "drowzee", "gastly", "fidough", "wingull", "wiglett", "flamigo"
 
   ])
     
