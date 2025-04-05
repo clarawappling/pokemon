@@ -1,30 +1,171 @@
 export  const franksList = ([
-    "scorbunny", "eternatus", "barraskewda", "grimmsnarl", 
-    "sylveon", "falinks", "haxorus", "growlithe", 
-    "grapploct", "gengar", "magikarp", "snorlax", "onix", "gyarados",
-    "steelix", "lapras", "cloyster", "butterfree", "machoke", "goldeen", "metapod", 
-    "seismitoad", "cinderace", "helioptile", "sudowoodo", "thievul", "rookidee", 
-    "gossifleur",  "purrloin", "zigzagoon", "raboot", "blipbug", "dottler",
-    "orbeetle", "caterpie", "grubbin", "vikavolt", "hoothoot", "corviknight",
-    "skwovet", "greedent", "pidove", "tranquill", "nickit", "obstagoon", "seedot",
-    "nuzleaf", "shiftry", "chewtle", "drednaw", "liepard", "yamper", "bunnelby", 
-    "diggersby", "minccino", "oddish", "gloom","wingull", "pelipper","galvantula",
-    "electrike", "vulpix", "delibird", "snorunt", "mudbray","dwebble", "golurk", "stufful",
-    "snover", "wooper", "corphish", "ninjask", "tyrogue", "pancham", "bronzor", 
-    "stunky", "tympole", "palpitoad", "dusknoir", "seaking", "octillery", "wishiwashi-solo", 
-    "wishiwashi-school", "pyukumuku", "sizzlipede", "rolycoly", "coalossal", "roggenrola",
-    "timburr", "gurdurr", "woobat", "arrokuda", "meowth", "perrserker", "cutiefly",
-    "pumpkaboo-average", "espurr", "swirlix", "chinchou", "lanturn", "scraggy",
-    "stunfisk", "whiscash", "shellos", "barbaracle", "hattrem", "hatterene", "sawk",
-    "bonsly", "rhyhorn", "gothitelle", "cubchoo", "rufflet", "skorupi", "litwick", "sneasel",
-    "sigilyph", "torkoal", "sandaconda", "hawlucha", "flygon", "axew", "fraxure", "yamask",
-    "phantump", "togedemaru", "snom", "mantine", "wailmer", "bergmite", "toxel", "beartic",
-    "copperajah", "ditto", "frillish", "gastrodon", "glalie", "inkay", "jolteon", "kingler",
-    "klang", "ninetales", "noivern", "wobbuffet", "pikachu", "eevee", "avalugg", "glaceon", 
-    "zacian", "shuckle", "gardevoir", "drakloak", "fuecoco", "lechonk", "tarountula", "hoppip",
-    "fletchling", "pawmi", "yungoos", "scatterbug", "azurill", "buizel", "wooper", "psyduck",
-    "ralts", "drowzee", "gastly", "fidough", "wingull", "wiglett", "flamigo", "crocalor", "charcadet",
-    "stantler", "shinx", "skiddo", "sunkern", "surskit"
     
+    // NORMAL
+    "eevee","sylveon", "jolteon", "glaceon",
+    "zigzagoon", "obstagoon",
+    "skwovet", "greedent",
+    "snorlax",
+    "bunnelby", "diggersby",
+    "minccino",
+    "meowth",
+    "ditto",
+    "lechonk",
+    "yungoos",
+    "stantler",
+
+    // ELD
+    "scorbunny", "raboot", "cinderace",
+    "growlithe", 
+    "vulpix", "ninetales",
+    "sizzlipede",
+    "torkoal", 
+    "fuecoco", "crocalor",
+    "charcadet",
+    
+    // VATTEN
+    "arrokuda", "barraskewda", 
+    "magikarp", "gyarados",
+    "cloyster",
+    "goldeen", "seaking",
+    "tympole", "palpitoad", "seismitoad",
+    "chewtle", "drednaw",
+    "wingull", "pelipper",
+    "lapras",
+    "wooper",
+    "corphish","kingler",
+    "octillery",
+    "wishiwashi-solo", "wishiwashi-school",
+    "pyukumuku",
+    "chinchou", "lanturn",
+    "whiscash",
+    "shellos", "gastrodon",
+    "mantine",
+    "wailmer",
+    "frillish", 
+    "buizel",
+    "psyduck",
+    "wiglett",
+
+    // MÖRK
+    "grimmsnarl", 
+    "nickit","thievul",
+    "purrloin", "liepard",
+
+    // ELEKTRISK
+    "helioptile",
+    "yamper",
+    "electrike",
+    "stunfisk",
+    "togedemaru",
+    "toxel",
+    "pichu", "pikachu",
+    "pawmi",
+    "shinx",
+
+    // GRÄS
+    "gossifleur",
+    "oddish", "gloom",
+    "hoppip",
+    "skiddo", 
+    "sunkern",
+    "seedot", "nuzleaf", "shiftry",
+    
+
+    // FE
+    "swirlix",
+    "zacian",
+    "azurill",
+    "ralts", "gardevoir",
+    "fidough",
+
+    // INSEKT
+    "caterpie", "metapod", "butterfree",
+    "blipbug", "dottler", "orbeetle",
+    "grubbin", "vikavolt",
+    "galvantula",
+    "dwebble",
+    "ninjask",
+    "cutiefly",
+    "tarountula",
+    "scatterbug",
+    "surskit",
+
+    //DRAKE
+    "axew", "fraxure","haxorus",
+    "flygon",
+    "noivern",
+    "drakloak",
+
+    //IS
+    "delibird",
+    "snorunt", "glalie",
+    "snover",
+    "cubchoo", "beartic",
+    "snom",
+    "bergmite", "avalugg",
+
+    //FIGHTING
+    "falinks",
+    "grapploct",
+    "machoke",
+    "stufful",
+    "tyrogue", 
+    "pancham",
+    "timburr", "gurdurr",
+    "sawk",
+    "hawlucha",
+    "flamigo", 
+
+    //MARK
+    "mudbray",
+    "golurk",
+    "scraggy",
+    "sneasel",
+    "sandaconda",
+
+    //STEN
+    "onix", "steelix",
+    "bonsly", "sudowoodo",
+    "rolycoly", "coalossal",
+    "roggenrola",
+    "barbaracle",
+    "rhyhorn",
+    "shuckle",
+
+    //STÅL
+    "bronzor",
+    "perrserker",
+    "copperajah",
+    "klang",
+
+    //GIFT
+    "eternatus",
+    "stunky",
+    "skorupi",
+
+    //FLYGANDE
+    "rookidee", "corviknight",
+    "hoothoot",
+    "pidove", "tranquill",
+    "rufflet", "braviary",
+    "sigilyph",
+    "fletchling",
+
+    //SPÖKE
+    "gastly", "gengar",
+    "dusknoir",
+    "pumpkaboo-average",
+    "litwick",
+    "yamask",
+    "phantump",
+
+    //PSYKISK
+    "woobat",
+    "espurr",
+    "hattrem", "hatterene",
+    "gothitelle",
+    "inkay", 
+    "wobbuffet",
+    "drowzee",
 
   ])
