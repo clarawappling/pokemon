@@ -9,7 +9,7 @@ export  const franksList = ([
     "minccino",
     "meowth",
     "ditto",
-    "lechonk",
+    "lechonk", "oinkologne-female",
     "yungoos",
     "stantler",
 
@@ -21,6 +21,7 @@ export  const franksList = ([
     "torkoal", 
     "fuecoco", "crocalor",
     "charcadet",
+    "litleo",
     
     // VATTEN
     "arrokuda", "barraskewda", 
@@ -75,7 +76,7 @@ export  const franksList = ([
     "swirlix",
     "zacian",
     "azurill",
-    "ralts", "gardevoir",
+    "ralts", "kirlia", "gardevoir",
     "fidough",
 
     // INSEKT
@@ -89,12 +90,14 @@ export  const franksList = ([
     "tarountula",
     "scatterbug",
     "surskit",
+    "nymble",
 
     //DRAKE
     "axew", "fraxure","haxorus",
     "flygon",
     "noivern",
     "drakloak",
+    "cyclizar",
 
     //IS
     "delibird",
@@ -114,7 +117,8 @@ export  const franksList = ([
     "timburr", "gurdurr",
     "sawk",
     "hawlucha",
-    "flamigo", 
+    "flamigo",
+    "makuhita",
 
     //MARK
     "mudbray",
@@ -131,6 +135,8 @@ export  const franksList = ([
     "barbaracle",
     "rhyhorn",
     "shuckle",
+    "klawf",
+    "nacli",
 
     //STÅL
     "bronzor",
