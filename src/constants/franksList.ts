@@ -12,6 +12,7 @@ export  const franksList = ([
     "lechonk", "oinkologne-female",
     "yungoos",
     "stantler",
+    "teddiursa",
 
     // ELD
     "scorbunny", "raboot", "cinderace",
@@ -46,6 +47,7 @@ export  const franksList = ([
     "buizel",
     "psyduck",
     "wiglett",
+    "finizen",
 
     // MÖRK
     "grimmsnarl", 
@@ -62,6 +64,7 @@ export  const franksList = ([
     "pichu", "pikachu",
     "pawmi",
     "shinx",
+    "wattrel",
 
     // GRÄS
     "gossifleur",
@@ -119,6 +122,7 @@ export  const franksList = ([
     "hawlucha",
     "flamigo",
     "makuhita",
+    "tauros-paldea-combat-breed",
 
     //MARK
     "mudbray",
@@ -126,6 +130,8 @@ export  const franksList = ([
     "scraggy",
     "sneasel",
     "sandaconda",
+    "wooper-paldea",
+
 
     //STEN
     "onix", "steelix",
@@ -148,6 +154,8 @@ export  const franksList = ([
     "eternatus",
     "stunky",
     "skorupi",
+    "mareanie",
+    "toxapex",
 
     //FLYGANDE
     "rookidee", "corviknight",
@@ -158,7 +166,7 @@ export  const franksList = ([
     "fletchling",
 
     //SPÖKE
-    "gastly", "gengar",
+    "gastly", "haunter", "gengar",
     "dusknoir",
     "pumpkaboo-average",
     "litwick",
