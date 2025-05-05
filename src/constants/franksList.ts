@@ -1,5 +1,5 @@
 // POKEMONS SOM VI SKA DUBBEKOLLA OM VI HAR
-// toedscool
+// toedscool, mareep
 
 export  const franksList = ([
     
@@ -57,6 +57,8 @@ export  const franksList = ([
     "grimmsnarl", 
     "nickit","thievul",
     "purrloin", "liepard",
+    "maschiff",
+
 
     // ELEKTRISK
     "helioptile",
@@ -69,6 +71,7 @@ export  const franksList = ([
     "pawmi",
     "shinx",
     "wattrel",
+    "flaaffy",
 
     // GRÄS
     "gossifleur",
@@ -129,10 +132,11 @@ export  const franksList = ([
     "sawk",
     "hawlucha",
     "flamigo",
-    "makuhita",
+    "makuhita", "hariyama",
     "tauros-paldea-combat-breed",
     "crabrawler",
     "mankey",
+
 
     //MARK
     "mudbray",
@@ -141,7 +145,8 @@ export  const franksList = ([
     "sneasel",
     "sandaconda",
     "wooper-paldea",
-    "phanpy",
+    "phanpy", "donphan",
+    "sandile",
 
 
     //STEN
@@ -155,6 +160,7 @@ export  const franksList = ([
     "klawf",
     "nacli",
     "rockruff",
+    "stonjourner",
 
     //STÅL
     "bronzor",
@@ -185,6 +191,7 @@ export  const franksList = ([
     "litwick",
     "yamask",
     "phantump",
+    "bramblin",
 
     //PSYKISK
     "woobat",
@@ -194,5 +201,6 @@ export  const franksList = ([
     "inkay", 
     "wobbuffet",
     "drowzee",
+    "flittle", "espathra"
 
   ])
