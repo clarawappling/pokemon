@@ -1,5 +1,4 @@
-// POKEMONS SOM VI SKA DUBBEKOLLA OM VI HAR
-// toedscool, mareep
+// POKEMONS SOM VI SKA DUBBEKOLLA OM VI HAR 
 
 export  const franksList = ([
     
@@ -16,6 +15,7 @@ export  const franksList = ([
     "yungoos",
     "stantler",
     "teddiursa",
+    "komala",
 
     // ELD
     "scorbunny", "raboot", "cinderace",
@@ -23,14 +23,14 @@ export  const franksList = ([
     "vulpix", "ninetales",
     "sizzlipede",
     "torkoal", 
-    "fuecoco", "crocalor",
+    "fuecoco", "crocalor", "skeledirge",
     "charcadet",
     "litleo",
     
     // VATTEN
     "arrokuda", "barraskewda", 
     "magikarp", "gyarados",
-    "cloyster",
+    "shellder", "cloyster",
     "goldeen", "seaking",
     "tympole", "palpitoad", "seismitoad",
     "chewtle", "drednaw",
@@ -47,11 +47,13 @@ export  const franksList = ([
     "mantine",
     "wailmer",
     "frillish", 
-    "buizel",
+    "buizel", "floatzel",
     "psyduck",
     "wiglett",
     "finizen",
-    "basculin-red-striped", "basculin-blue-striped", 	
+    "basculin-red-striped", "basculin-blue-striped",
+    "qwilfish",
+    
 
     // MÖRK
     "grimmsnarl", 
@@ -70,8 +72,10 @@ export  const franksList = ([
     "pichu", "pikachu",
     "pawmi",
     "shinx",
-    "wattrel",
-    "flaaffy",
+    "wattrel", "kilowattrel",
+    "mareep", "flaaffy",
+    "tadbulb",
+    "toedscool",
 
     // GRÄS
     "gossifleur",
@@ -82,6 +86,10 @@ export  const franksList = ([
     "seedot", "nuzleaf", "shiftry",
     "capsakid",
     "smoliv",
+    "cacnea",
+    "deerling",
+    "fomantis",
+    "steenee",
     
 
     // FE
@@ -90,6 +98,9 @@ export  const franksList = ([
     "azurill",
     "ralts", "kirlia", "gardevoir",
     "fidough",
+    "flabebe",
+    "igglybuff", "jigglypuff",
+    "tinkatink",
 
     // INSEKT
     "caterpie", "metapod", "butterfree",
@@ -102,8 +113,9 @@ export  const franksList = ([
     "tarountula", "spidops",
     "scatterbug",
     "surskit",
-    "nymble",
+    "nymble", "lokix",
     "combee",
+    "rellor",
     
 
     //DRAKE
@@ -143,7 +155,7 @@ export  const franksList = ([
     "golurk",
     "scraggy",
     "sneasel",
-    "sandaconda",
+    "silicobra", "sandaconda",
     "wooper-paldea",
     "phanpy", "donphan",
     "sandile",
@@ -161,12 +173,14 @@ export  const franksList = ([
     "nacli",
     "rockruff",
     "stonjourner",
+    "larvitar",
 
     //STÅL
     "bronzor",
     "perrserker",
     "copperajah",
     "klang",
+    "magnemite",
 
     //GIFT
     "eternatus",
@@ -174,15 +188,18 @@ export  const franksList = ([
     "skorupi",
     "mareanie",
     "toxapex",
+    "grimer",
 
     //FLYGANDE
-    "rookidee", "corviknight",
+    "rookidee", "corvisquire", "corviknight", //FULL HOUSE
     "hoothoot",
     "pidove", "tranquill",
     "rufflet", "braviary",
     "sigilyph",
     "fletchling",
-    "starly",
+    "starly", "staravia",
+    "bombirdier",
+    "swablu",
 
     //SPÖKE
     "gastly", "haunter", "gengar",
@@ -192,6 +209,8 @@ export  const franksList = ([
     "yamask",
     "phantump",
     "bramblin",
+    "gimmighoul",
+    "greavard",
 
     //PSYKISK
     "woobat",
@@ -201,6 +220,7 @@ export  const franksList = ([
     "inkay", 
     "wobbuffet",
     "drowzee",
-    "flittle", "espathra"
+    "flittle", "espathra",
+    "girafarig"
 
   ])
