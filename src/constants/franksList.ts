@@ -52,14 +52,16 @@ export  const franksList = ([
     "finizen",
     "basculin-red-striped", "basculin-blue-striped",
     "qwilfish",
+    "tatsugiri-curly",
+    "veluza",
     
 
     // MÖRK
     "grimmsnarl", 
     "nickit","thievul",
     "purrloin", "liepard",
-    "maschiff",
-    "zorua",
+    "maschiff", "mabosstiff",
+    "zorua", "zoroark",
 
 
     // ELEKTRISK
@@ -68,7 +70,7 @@ export  const franksList = ([
     "electrike",
     "stunfisk",
     "togedemaru",
-    "toxel",
+    "toxel", "toxtricity-low-key",
     "dedenne","pichu", "pikachu",
     "pawmi",
     "shinx",
@@ -76,6 +78,7 @@ export  const franksList = ([
     "mareep", "flaaffy",
     "tadbulb",
     "toedscool",
+    "voltorb",
     
 
     // GRÄS
@@ -131,6 +134,8 @@ export  const franksList = ([
     "cyclizar",
     "gible", "gabite",
     "goomy", "sliggoo",
+    "dratini",
+    "veluza",
 
     //IS
     "delibird",
@@ -166,12 +171,13 @@ export  const franksList = ([
     "wooper-paldea",
     "phanpy", "donphan",
     "sandile",
+    "diglett",
 
 
     //STEN
     "onix", "steelix",
     "bonsly", "sudowoodo",
-    "rolycoly", "coalossal",
+    "rolycoly", "carkol", "coalossal", 
     "roggenrola",
     "barbaracle",
     "rhyhorn",
@@ -185,9 +191,11 @@ export  const franksList = ([
     //STÅL
     "bronzor",
     "perrserker",
-    "copperajah",
+    "cufant", "copperajah",
     "klang",
     "magnemite",
+    "varoom",
+    "orthworm",
 
     //GIFT
     "eternatus",
