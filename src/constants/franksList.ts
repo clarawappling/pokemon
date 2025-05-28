@@ -135,7 +135,7 @@ export  const franksList = ([
     "gible", "gabite",
     "goomy", "sliggoo",
     "dratini",
-    "veluza",
+    "deino",
 
     //IS
     "delibird",
