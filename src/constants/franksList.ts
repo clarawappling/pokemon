@@ -1,8 +1,8 @@
 export  const franksList = ([
     
     // NORMAL
-    "eevee","sylveon", "jolteon", "glaceon",
-    "zigzagoon", "obstagoon",
+    "eevee","sylveon", "jolteon", "glaceon", "vaporeon",
+    "zigzagoon", 
     "skwovet", "greedent",
     "snorlax",
     "bunnelby", "diggersby",
@@ -25,6 +25,7 @@ export  const franksList = ([
     "charcadet",
     "litleo",
     "salandit",
+    "houndoom",
     
     // VATTEN
     "arrokuda", "barraskewda", 
@@ -62,6 +63,7 @@ export  const franksList = ([
     "purrloin", "liepard",
     "maschiff", "mabosstiff",
     "zorua", "zoroark",
+    "obstagoon",
 
 
     // ELEKTRISK
@@ -76,7 +78,7 @@ export  const franksList = ([
     "shinx",
     "wattrel", "kilowattrel",
     "mareep", "flaaffy",
-    "tadbulb",
+    "tadbulb", "bellibolt", //FULL HOUSE
     "toedscool",
     "voltorb",
     
@@ -85,7 +87,7 @@ export  const franksList = ([
     "gossifleur",
     "oddish", "gloom",
     "hoppip",
-    "skiddo", 
+    "skiddo", "gogoat", //FULL HOUSE
     "sunkern",
     "seedot", "nuzleaf", "shiftry",
     "capsakid",
@@ -102,12 +104,12 @@ export  const franksList = ([
     // FE
     "swirlix",
     "zacian",
-    "azurill",
+    "azurill", "marill", "azumarill",
     "ralts", "kirlia", "gardevoir",
     "fidough",
     "flabebe",
     "igglybuff", "jigglypuff",
-    "tinkatink",
+    "tinkatink", "tinkatuff", "tinkaton", //FULL HOUSE
 
     // INSEKT
     "caterpie", "metapod", "butterfree",
@@ -129,21 +131,24 @@ export  const franksList = ([
     //DRAKE
     "axew", "fraxure","haxorus",
     "flygon",
-    "noivern",
+    "noibat", "noivern", // FULL HOUSE
     "drakloak",
     "cyclizar",
     "gible", "gabite",
     "goomy", "sliggoo",
     "dratini",
     "deino",
+    "arctibax",
 
     //IS
     "delibird",
-    "snorunt", "glalie",
+    "snorunt", "froslass", "glalie", //FULL HOUSE
     "snover",
     "cubchoo", "beartic",
     "snom",
     "bergmite", "avalugg",
+    "cryogonal",
+    "cetoddle",
 
     //FIGHTING
     "falinks",
@@ -184,12 +189,12 @@ export  const franksList = ([
     "shuckle",
     "klawf",
     "nacli",
-    "rockruff",
+    "rockruff", "lycanroc-midday",
     "stonjourner",
     "larvitar", "pupitar",
 
     //STÅL
-    "bronzor",
+    "bronzor", "bronzong",
     "perrserker",
     "cufant", "copperajah",
     "klang",
@@ -205,6 +210,9 @@ export  const franksList = ([
     "toxapex",
     "grimer",
     "foongus",
+    "shroodle",
+    "venomoth",
+    "toxicroak",
     
 
     //FLYGANDE
@@ -213,13 +221,13 @@ export  const franksList = ([
     "pidove", "tranquill",
     "rufflet", "braviary",
     "sigilyph",
-    "fletchling",
+    "fletchling", "fletchinder",
     "starly", "staravia",
     "bombirdier",
-    "swablu",
+    "swablu", "altaria",
 
     //SPÖKE
-    "gastly", "haunter", "gengar",
+    "gastly", "haunter", "gengar", //FULL HOUSE
     "dusknoir",
     "pumpkaboo-average",
     "litwick",
@@ -233,7 +241,7 @@ export  const franksList = ([
     "woobat",
     "espurr",
     "hattrem", "hatterene",
-    "gothitelle",
+    "gothorita", "gothitelle",
     "inkay", 
     "wobbuffet",
     "drowzee", "hypno",
