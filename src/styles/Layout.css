@@ -47,6 +47,7 @@ button {
     padding: 1rem;
     margin: 2rem;
     background-color: var(--button-bg);
+    color: var(--text-color);
     
 }
 
