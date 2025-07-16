@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(58, 143, 41, 0.034) ;
+  background-color: var(--bg-color);
 }
 
 .pokemon-name {
