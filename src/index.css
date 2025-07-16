@@ -52,6 +52,7 @@ button:focus-visible {
     --box-shadow: rgba(23, 47, 19, 0.432);
     --bg-color-card: rgba(87, 87, 87, 0.35);
     --input-border: rgb(82, 82, 82);
+    --header-img: "https://images.ctfassets.net/w5r1fvmogo3f/4VN7t0SD1XbEyy3KnJrHTy/7c4ebf24c325bf2f75fa07ab3b41f400/pokemon-banner_b40d63371a1542f8849329421436a7bf.jpeg?fm=webp&q=90&fit=scale&w=1920";
 
   color-scheme: dark;
   color: var(--text-color);
@@ -67,6 +68,7 @@ button:focus-visible {
     --box-shadow: rgba(125, 168, 116, 0.432);
     --bg-color-card: rgba(125, 168, 116, 0.171);
     --input-border: rgb(218, 218, 218);
+    --header-img: "https://www.sketchappsources.com/resources/source-image/pokemon-vector-logo.png";
 
     color-scheme: light;
     color: var(--text-color);
