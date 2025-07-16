@@ -4,22 +4,11 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 body {
@@ -47,22 +36,40 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #7f85f8;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+:root {
+  /* Default (dark mode) */
+    --bg-color: rgba(41, 41, 41, 0.259);
+    --text-color: #ececec;
+    --hp-text-color:rgba(184, 184, 184, 0.857);
+    --button-bg: rgb(57, 81, 110);
+    --box-shadow: rgba(23, 47, 19, 0.432);
+    --bg-color-card: rgba(87, 87, 87, 0.35);
+    --input-border: rgb(82, 82, 82);
+
+  color-scheme: dark;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+    --bg-color: rgba(58, 143, 41, 0.034);
+    --text-color: #212121;
+    --hp-text-color:rgba(31, 51, 27, 0.857);
+    --button-bg: rgb(187, 211, 238);
+    --box-shadow: rgba(125, 168, 116, 0.432);
+    --bg-color-card: rgba(125, 168, 116, 0.171);
+    --input-border: rgb(218, 218, 218);
+
+    color-scheme: light;
+    color: var(--text-color);
+    background-color: var(--bg-color);
   }
 }

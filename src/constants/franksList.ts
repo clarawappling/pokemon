@@ -10,10 +10,11 @@ export  const franksList = ([
     "meowth", "persian",
     "ditto",
     "lechonk", "oinkologne-female",
-    "yungoos",
+    "yungoos", "gumshoos",
     "stantler",
     "teddiursa",
     "komala",
+    "vigoroth",
 
     // ELD
     "scorbunny", "raboot", "cinderace",
@@ -74,19 +75,20 @@ export  const franksList = ([
     "togedemaru",
     "toxel", "toxtricity-low-key",
     "dedenne","pichu", "pikachu",
-    "pawmi",
+    "pawmi", "pawmo",
     "shinx",
     "wattrel", "kilowattrel",
-    "mareep", "flaaffy",
+    "mareep", "flaaffy", "ampharos", //FULL HOUSE
     "tadbulb", "bellibolt", //FULL HOUSE
     "toedscool",
     "voltorb",
+    "pincurchin",
     
 
     // GRÄS
     "gossifleur",
     "oddish", "gloom",
-    "hoppip",
+    "hoppip", "skiploom", "jumpluff", // FULL HOUSE
     "skiddo", "gogoat", //FULL HOUSE
     "sunkern",
     "seedot", "nuzleaf", "shiftry",
@@ -120,7 +122,7 @@ export  const franksList = ([
     "ninjask",
     "cutiefly",
     "tarountula", "spidops",
-    "scatterbug",
+    "scatterbug", "spewpa", "vivillon",
     "surskit",
     "nymble", "lokix",
     "combee",
@@ -134,11 +136,11 @@ export  const franksList = ([
     "noibat", "noivern", // FULL HOUSE
     "drakloak",
     "cyclizar",
-    "gible", "gabite",
+    "gible", "gabite", "garchomp",// FULL HOUSE
     "goomy", "sliggoo",
-    "dratini",
+    "dratini", "dragonair", "dragonite", // FULL HOUSE
     "deino",
-    "arctibax",
+    "arctibax", "baxcalibur",
 
     //IS
     "delibird",
@@ -188,10 +190,10 @@ export  const franksList = ([
     "rhyhorn",
     "shuckle",
     "klawf",
-    "nacli",
+    "nacli", "naclstack",
     "rockruff", "lycanroc-midday",
     "stonjourner",
-    "larvitar", "pupitar",
+    "larvitar", "pupitar", "tyranitar",
 
     //STÅL
     "bronzor", "bronzong",
@@ -221,7 +223,7 @@ export  const franksList = ([
     "pidove", "tranquill",
     "rufflet", "braviary",
     "sigilyph",
-    "fletchling", "fletchinder",
+    "fletchling", "fletchinder", "talonflame",
     "starly", "staravia",
     "bombirdier",
     "swablu", "altaria",
