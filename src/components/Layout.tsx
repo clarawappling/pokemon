@@ -1,5 +1,8 @@
 import { PokemonApp } from "./PokemonApp"
 import "../styles/Layout.css"
+import headerDark from "../assets/imgs/other/dark-mode-header.webp"
+import headerLight from "../assets/imgs/other/light-mode-header.webp"
+import footer from "../assets/imgs/other/footer.jpeg"
 
 export const Layout = () => {
     return (<>
@@ -8,11 +11,11 @@ export const Layout = () => {
         <div className="header-image-container">
   <picture>
     <source
-      srcSet="https://dijitaliyidir.com/wp-content/uploads/2025/02/Pokemon-1.webp"
+      srcSet={headerLight}
       media="(prefers-color-scheme: light)"
     />
     <img
-      src="https://images.ctfassets.net/w5r1fvmogo3f/4VN7t0SD1XbEyy3KnJrHTy/7c4ebf24c325bf2f75fa07ab3b41f400/pokemon-banner_b40d63371a1542f8849329421436a7bf.jpeg?fm=webp&q=90&fit=scale&w=1920"
+      src={headerDark}
       alt="pokemon logo"
     />
   </picture>
@@ -26,7 +29,7 @@ export const Layout = () => {
     <footer>
         <div className="footer">
             <div className="footer-img">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6g2uyUTzImXttdEyHkvRk1dxatii_NMaQ-g&s" alt="pokemon gathering"/>
+                <img src={footer} alt="pokemon gathering"/>
 
             </div>
         </div>
