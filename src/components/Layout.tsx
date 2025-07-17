@@ -8,7 +8,7 @@ export const Layout = () => {
         <div className="header-image-container">
   <picture>
     <source
-      srcSet="https://www.sketchappsources.com/resources/source-image/pokemon-vector-logo.png"
+      srcSet="https://dijitaliyidir.com/wp-content/uploads/2025/02/Pokemon-1.webp"
       media="(prefers-color-scheme: light)"
     />
     <img
