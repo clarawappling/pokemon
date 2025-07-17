@@ -1,7 +1,7 @@
 export  const franksList = ([
     
     // NORMAL
-    "eevee","sylveon", "jolteon", "glaceon", "vaporeon",
+    "eevee","sylveon", "jolteon", "glaceon", "vaporeon", "espeon",
     "zigzagoon", 
     "skwovet", "greedent",
     "snorlax",
@@ -26,7 +26,7 @@ export  const franksList = ([
     "charcadet",
     "litleo",
     "salandit",
-    "houndoom",
+    "houndour", "houndoom",
     
     // VATTEN
     "arrokuda", "barraskewda", 
@@ -96,10 +96,11 @@ export  const franksList = ([
     "smoliv",
     "cacnea",
     "deerling", "sawsbuck",
-    "fomantis",
+    "fomantis", "lurantis",
     "steenee",
     "shroomish", "breloom",
     "tropius",
+    "petilil",
     
     
 
@@ -109,7 +110,7 @@ export  const franksList = ([
     "azurill", "marill", "azumarill",
     "ralts", "kirlia", "gardevoir",
     "fidough",
-    "flabebe",
+    "flabebe", "floette",
     "igglybuff", "jigglypuff",
     "tinkatink", "tinkatuff", "tinkaton", //FULL HOUSE
 
@@ -165,7 +166,7 @@ export  const franksList = ([
     "flamigo",
     "makuhita", "hariyama",
     "tauros-paldea-combat-breed",
-    "crabrawler",
+    "crabrawler", "crabominable", //FULL HOUSE
     "mankey", "primeape",
 
 
@@ -202,7 +203,7 @@ export  const franksList = ([
     "klang",
     "magnemite",
     "varoom",
-    "orthworm",
+    "orthworm", "klefki",
 
     //GIFT
     "eternatus",
