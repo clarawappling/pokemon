@@ -14,7 +14,7 @@ export  const franksList = ([
     "stantler",
     "teddiursa",
     "komala",
-    "vigoroth",
+    "vigoroth", "slaking",
 
     // ELD
     "scorbunny", "raboot", "cinderace",
@@ -56,7 +56,7 @@ export  const franksList = ([
     "qwilfish",
     "tatsugiri-curly",
     "veluza",
-    
+    "lumineon",
 
     // MÖRK
     "grimmsnarl", 
@@ -74,7 +74,8 @@ export  const franksList = ([
     "stunfisk",
     "togedemaru",
     "toxel", "toxtricity-low-key",
-    "dedenne","pichu", "pikachu",
+    "dedenne",
+    "pichu", "pikachu", "raichu",
     "pawmi", "pawmo",
     "shinx",
     "wattrel", "kilowattrel",
@@ -129,6 +130,7 @@ export  const franksList = ([
     "combee",
     "rellor",
     "scyther",
+    "heracross",
     
 
     //DRAKE
@@ -151,7 +153,7 @@ export  const franksList = ([
     "snom",
     "bergmite", "avalugg",
     "cryogonal",
-    "cetoddle",
+    "cetoddle", "cetitan",
 
     //FIGHTING
     "falinks",
