@@ -1,0 +1,81 @@
+.type-filter {
+  margin: 1rem 0 1.25rem;
+  padding: 0.75rem 0.75rem 0.9rem;
+  background: rgb(149 122 232 / 17%);
+  border-radius: 10px;
+}
+
+.type-filter-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.type-filter-title {
+  font-family: "Belanosima", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.type-filter-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.type-filter-clear {
+  padding: 0.5rem 0.75rem;
+  margin: 0;
+  border-radius: 10px;
+  border: 1px solid var(--input-border);
+  background: var(--button-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.type-filter-clear:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.type-filter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.5rem;
+}
+
+.type-filter-chip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.45rem 0.6rem;
+  margin: 0;
+  border-radius: 12px;
+  border: 1px solid var(--input-border);
+  background: transparent;
+  color: var(--text-color);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.type-filter-chip.is-selected {
+  background: var(--button-bg);
+}
+
+.type-filter-icon {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.type-filter-label {
+  font-family: "Londrina Shadow", Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+
