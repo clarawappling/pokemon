@@ -47,7 +47,7 @@ export  const franksList = ([
     "shellos", "gastrodon",
     "mantine",
     "wailmer",
-    "frillish", 
+    "frillish-male", 
     "buizel", "floatzel",
     "psyduck", "golduck",
     "wiglett",
